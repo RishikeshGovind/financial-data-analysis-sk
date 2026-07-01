@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .shared_state.json
 .shared_state.tmp
+.token_cache.json

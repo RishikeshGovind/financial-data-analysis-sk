@@ -51,7 +51,7 @@ class KISSettings(BaseSettings):
         min_length=8,
     )
     KIS_CANO: str = Field(
-        default="your_account_number_here",
+        default="00000000",
         description="KIS account number (8 digits).",
         min_length=8,
         max_length=8,
